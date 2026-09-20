@@ -1,0 +1,14 @@
+{
+  "name": "moltrust-identity",
+  "description": "Register a keyless agent identity and read its trust score.",
+  "url": "https://api.moltrust.ch",
+  "version": "1.0.0",
+  "skills": [
+    {"id": "register", "name": "Register an identity",
+     "description": "Keyless registration: proof of possession plus a small proof of work."},
+    {"id": "trust-score", "name": "Read a trust score",
+     "description": "Score, grade, breakdown and whether it is withheld."},
+    {"id": "verify", "name": "Verify an agent",
+     "description": "Credentials with inline Merkle proof, root and anchoring transaction."}
+  ]
+}
