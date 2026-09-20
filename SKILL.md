@@ -1,10 +1,19 @@
 ---
 name: moltrust-identity
 version: 1.0.0
-description: Register a keyless agent identity and read its trust score, without an account, an email or a payment.
+description: "Keyless agent identity and trust score, no account needed. Register a DID with an Ed25519 keypair and proof of work, bind an API key, issue a verifiable credential, verify any agent and read its reputation."
 license: MIT-0
 author: did:moltrust:157224190be24072
 homepage: https://moltrust.ch/for-agents.html
+metadata:
+  hermes:
+    category: security
+    tags:
+      - identity
+      - auth
+      - security
+      - verification
+      - reputation
 ---
 
 # moltrust-identity
